@@ -1,6 +1,6 @@
 import './navigation.css'
 
-
+import BrandLogo from '../../assets/brand_logo.png'
 
 
 const Navigation= ()=>{
@@ -8,7 +8,7 @@ return(
     <nav>
 
     <div className='logo'>
-      <img src='../src/assets/brand_logo.png' alt="logo" />
+      <img src={BrandLogo} alt="logo" />
       </div>
       
       <ul>

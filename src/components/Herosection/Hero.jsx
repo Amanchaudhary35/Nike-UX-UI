@@ -1,5 +1,8 @@
 import React from 'react';
 import './hero.css'
+import Logo from '../../assets/amazon.png'
+import FlipcartLogo from '../../assets/flipkart.png'
+import ShueImg from '../../assets/shoe_image.png'
 
 
 function Hero(props) {
@@ -20,15 +23,15 @@ function Hero(props) {
                 <div className="shopping">
                     <p>Also available on</p>
                     <div className="brand-icons">
-                        <img src="../src/assets/amazon.png" alt="amazon_logo" />
-                        <img src="../src/assets/flipkart.png" alt="flipcart_logo" />
+                        <img src={Logo} alt="amazon_logo" />
+                        <img src={FlipcartLogo} alt="flipcart_logo" />
                     </div>
 
                 </div>
 
             </div>
             <div className='hero-img'>
-                <img src="../src/assets/shoe_image.png" alt="shoe_logo" />
+                <img src={ShueImg} alt="shoe_logo" />
 
             </div>
         </main>
